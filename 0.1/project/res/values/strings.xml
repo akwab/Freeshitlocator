@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FreeShitLocator</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_shit_page">ShitPage</string>
+    <string name="title_activity_shit_list">ShitList</string>
+    <string name="noshits">No Free Shit</string>
+    <string name="insert">New Shit</string>
+    <string name="menu_delete">End This Shit</string>
+    <string name="shit_item">Item</string>
+    <string name="shit_coords">Coordinates</string>
+    <string name="shit_where">Where (in detail)</string>
+    <string name="shit_del">Delete Item</string>
+    <string name="shit_confirm">Confirm</string>
+
+</resources>

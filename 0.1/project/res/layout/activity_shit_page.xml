@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/LinearLayout01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/shit_item"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/shit_item"
+            android:imeOptions="actionNext" >
+        </EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/LinearLayout02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    
+        <EditText
+            android:id="@+id/shit_coords"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/shit_coords"
+            android:imeOptions="actionNext" >
+        </EditText>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/shit_where"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="top"
+        android:hint="@string/shit_where"
+        android:imeOptions="actionNext" >
+    </EditText>
+
+    <Button
+        android:id="@+id/bConfirmShit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/shit_confirm" >
+    </Button>
+    
+</LinearLayout>
